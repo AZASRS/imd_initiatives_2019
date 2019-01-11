@@ -1,0 +1,1745 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usetheme{Warsaw}
+%
+%start of text to add page numbers
+%
+\setbeamercolor{mycolor}{fg=white,bg=black}
+\defbeamertemplate*{footline}{shadow theme}{%
+\leavevmode%
+\hbox{\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm plus1fil,rightskip=.3cm]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\hfill\insertshortauthor
+\end{beamercolorbox}%
+\begin{beamercolorbox}[wd=.4\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle\hfill%
+\end{beamercolorbox}%
+\begin{beamercolorbox}[wd=.1\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{mycolor}%
+\hfill\insertframenumber\,/\,\inserttotalframenumber
+\end{beamercolorbox}}%
+\vskip0pt%
+}
+%
+%end of text to add page numbers
+%
+
+
+%\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+
+
+%
+%below removes navigation symbols
+%you might want this is a version for live presentation
+\setbeamertemplate{navigation symbols}{}
+%\setbeamertemplate{footline}[page number]
+
+%
+%sets the page size a little bigger to get more text in a default font size
+\geometry{paperwidth=141mm,paperheight=106mm} 
+
+%comment out next two lines for screen viewing with active hyperlinks 
+\usepackage{pgfpages}
+\pgfpagesuselayout{resize to}[letterpaper,border shrink=5mm,landscape]
+
+%
+%hyperlink settings
+%
+%\usepackage{hyperref}
+%\hypersetup{colorlinks=true,citecolor=green}
+\definecolor{links}{HTML}{2A1B81}
+\hypersetup{colorlinks,linkcolor=,urlcolor=links}
+\end_preamble
+\use_default_options false
+\begin_modules
+knitr
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ASRS Investment Initiatives
+\end_layout
+
+\begin_layout Subtitle
+for implementation in 2019 and 2020 fiscal years
+\end_layout
+
+\begin_layout Author
+Karl Polen
+\begin_inset Flex InstituteMark
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Give the names in the same order as the appear in the paper.
+ 
+\end_layout
+
+\begin_layout Itemize
+Use the 
+\begin_inset Quotes eld
+\end_inset
+
+Institute mark
+\begin_inset Quotes erd
+\end_inset
+
+ inset (
+\family sans
+Insert\SpecialChar menuseparator
+Custom Insets\SpecialChar menuseparator
+InstituteMark
+\family default
+) only if the authors have different affiliations.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+January 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+- optional, use only with lots of authors
+\end_layout
+
+\begin_layout Plain Layout
+- if there are really lots of authors, use 
+\begin_inset Quotes eld
+\end_inset
+
+Author et al.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+January 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Either use conference name or its abbreviation.
+ 
+\end_layout
+
+\begin_layout Itemize
+Not really informative to the audience, more for people (including yourself)
+ who are reading the slides online
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+January 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+optional, should be abbreviation of conference name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute
+Arizona State Retirement System
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Outline
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Use the below to size Sweave graphs, but it make take time to get this right
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setkeys{Gin}{width=0.5
+\backslash
+textwidth}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Accomplishments from 2018
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Overall
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Completed new strategic asset allocation
+\end_layout
+
+\begin_layout Itemize
+Began implementation plan process making explicit risk/return targets for
+ asset classes and (when complete) total fund
+\end_layout
+
+\begin_layout Itemize
+Commenced efforts to implement fund level leverage through repo facility
+ and reconfigured equitization program consistent with new SAA
+\end_layout
+
+\begin_layout Itemize
+Completed first direct investment in an operating company (MCR)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Hired Fried Frank and Evercore enhancing skills to participate in future
+ direct investments
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Continued efforts to reduce fees and increase control through direct and
+ separate account investments
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Control features include improved liquidity, targeted investment criteria
+ and shadow underwriting rights
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Renegotiated terms and service model with custody bank and began transition
+ to 
+\begin_inset Quotes eld
+\end_inset
+
+EAOS
+\begin_inset Quotes erd
+\end_inset
+
+ model
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Credit and Interest Rate Sensitive
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Continued build out of private debt program
+\end_layout
+
+\begin_layout Itemize
+Completed first implementation plan for credit
+\end_layout
+
+\begin_layout Itemize
+Completed first implementation plan for interest rate sensitive
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Equities
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Completed implementation of factors program
+\end_layout
+
+\begin_layout Itemize
+Terminated all remaining active managers
+\end_layout
+
+\begin_layout Itemize
+Designed and researched alpha overlay strategy
+\end_layout
+
+\begin_layout Itemize
+Completed first implementation plan
+\end_layout
+
+\begin_layout Itemize
+Converted Bridgewater to S&P500 overlay and renegotiated terms 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Real Estate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Completed first direct investment in operating company
+\end_layout
+
+\begin_layout Itemize
+Continued buildout of separate account program
+\end_layout
+
+\begin_layout Itemize
+Planned for management continuity
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Performance and attribution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Switched to SS as performance book of record
+\end_layout
+
+\begin_layout Itemize
+Implemented 
+\begin_inset Quotes eld
+\end_inset
+
+top down
+\begin_inset Quotes erd
+\end_inset
+
+ instead of 
+\begin_inset Quotes eld
+\end_inset
+
+bottom up
+\begin_inset Quotes erd
+\end_inset
+
+ return calculation method
+\end_layout
+
+\begin_layout Itemize
+Implemented new composites for new SAA (including restatement of history)
+\end_layout
+
+\begin_layout Itemize
+Implemented 
+\begin_inset Quotes eld
+\end_inset
+
+dollar value add
+\begin_inset Quotes erd
+\end_inset
+
+ approach to attribution
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+allows integration of irr based and twr based returns in same attribution
+\end_layout
+
+\begin_layout Itemize
+increases clarity of communication of relative importance of return variances
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Data and security
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Commenced use of Github to provide secure storage and version control for
+ computer code
+\end_layout
+
+\begin_layout Itemize
+Hired outsource consultant to commence transition of investment data storage
+ from 
+\begin_inset Quotes eld
+\end_inset
+
+flat file
+\begin_inset Quotes erd
+\end_inset
+
+ to SQL database
+\end_layout
+
+\begin_layout Itemize
+Collaborate with TSD consultant for planning on cloud transition for enhanced
+ continuous operation capability
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Outcomes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Through 9/30, returns of x.x% exceeded the benchmark by y.y% placing ASRS
+ in the z percentile among public funds
+\end_layout
+
+\begin_layout Itemize
+Preliminary results for 12/31 are xx.xx% which is yy.yy% greater than the
+ benchmark.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Asset Classes
+\end_layout
+
+\begin_layout Subsection
+Equities
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finish Alpha Overlay
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The implementation plan preliminarily defined 4 additional components of
+ the alpha overlay
+\end_layout
+
+\begin_layout Itemize
+Need to complete diligence for presentation to asset class committee
+\end_layout
+
+\begin_layout Itemize
+If approved, proceed to implementation
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Event Studies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The implementation plan identified a series of potential strategies for
+ further enhancement of internal portfolio returns
+\end_layout
+
+\begin_layout Itemize
+These strategies need to be explored and validated through backtest event
+ studies
+\end_layout
+
+\begin_layout Itemize
+Do not currently have the capability to perform this work within the equity
+ team
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Need to enhance skills or find consultant to assist in the work
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Private Equity Investment Initiatives
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider tighter criteria for new investments on more focused approach
+\end_layout
+
+\begin_layout Itemize
+May result in more concentrated portfolios
+\end_layout
+
+\begin_layout Itemize
+Consider overlay to neutralize undesired sector exposures
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Currency
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider overlay to neutralize portfolio to ACWI currency weights
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Liquidity/Rebalance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider optimal approach to portfolio implementation providing liquidity
+ on the margin through derivatives to implement portfolio weights and reposition
+ing
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ persistent short position in position in some futures might be accretive
+ to returns and highly flexible to achieve rapid rebalance when desired
+\end_layout
+
+\begin_layout Itemize
+Need to thoroughly examine across all markets
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Beta market review
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Study index and enhanced index market
+\end_layout
+
+\begin_layout Itemize
+Goal is to confirm internal approaches are encompassing best ideas and offer
+ best value
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Private equity tracking
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Implementing a tracking system to monitor sector, currency geography exposures
+ in the private equity portfolio
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Sec Lending optimization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+review sec lending to identify areas for improvement
+\end_layout
+
+\begin_layout Itemize
+potential expansion and coordination of sec lending with liquidity initiatives
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Interest Rate Sensitive and Credit
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+Liquidity Coordination
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+portfolio structure and sec lending configuration coordination with liquidity
+ initiatives
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Credit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Continue buildout of credit portfolio
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Monitoring
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Implement a credit portfolio monitoring system tracking positions and loan
+ quality
+\end_layout
+
+\begin_layout Itemize
+Contract has been signed with Aksia
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Real Estate
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Investments
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Continue build out of separate account portfolio
+\end_layout
+
+\begin_layout Itemize
+Continue direct investments in asset managers when available
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Related fund management under consideration
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Implement direct investment capability in single asset ventures and directly
+ owned property
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Liquidity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Implement rollup of real estate interests to single entity
+\end_layout
+
+\begin_layout Itemize
+Creates a counterparty for direct investments
+\end_layout
+
+\begin_layout Itemize
+Creates liquidity path for capital markets in debt and equity markets
+\end_layout
+
+\begin_layout Itemize
+Implement credit facilities to decouple capital requirements from other
+ ASRS investments and implement a self sustaining model
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Performance measurement
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Implement data enhancements to facilitate decomposition of returns by strategy
+ 
+\begin_inset Quotes eld
+\end_inset
+
+levers
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Possible levers include:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Investment structure (direct, separate account, commingled)
+\end_layout
+
+\begin_layout Itemize
+Life cycle (construction, lease up, reposition, stable)
+\end_layout
+
+\begin_layout Itemize
+Property type (apartment, office, industrial, retail, other)
+\backslash
+
+\end_layout
+
+\begin_layout Itemize
+Geography
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Liquidity and tactical flexibility
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+SAA framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SAA allows up to 5% leverage at total fund level
+\end_layout
+
+\begin_layout Itemize
+May be implemented with borrowed money or synthetically with derivatives
+\end_layout
+
+\begin_layout Itemize
+SAA allows up to 60% leverage for credit and real estate implemented inside
+ those portfolios (with look through to position level leverage)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Fund Level Leverage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Investigating repo markets for short term cash borrowing
+\end_layout
+
+\begin_layout Itemize
+Exploring linkage to sec lending, although finding institutional resistance
+ because traditionally managed in different parts of banks
+\end_layout
+
+\begin_layout Itemize
+Leverage can also be implemented with futures, total return swaps, etc
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Asset Class leverage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For real estate, can implement leverage at roll up portfolio level
+\end_layout
+
+\begin_layout Itemize
+Decouples capital requirements of the portfolio from total fund and makes
+ it independent
+\end_layout
+
+\begin_layout Itemize
+Will explore for credit after proof of concept with real estate
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Optimization of Holding Structure
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Positions can be implemented in cash and derivative markets
+\end_layout
+
+\begin_layout Itemize
+Every method has an implied cost of funding
+\end_layout
+
+\begin_layout Itemize
+Optimization considers the implied cost of funding in structuring portfolios
+\end_layout
+
+\begin_layout Itemize
+For example, could elect to be long R2K and short SP500 futures offset with
+ positions in cash markets as a means of enhancing returns 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Risk management 
+\end_layout
+
+\begin_layout Subsection
+Position knowledge
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Credit and Real Estate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Already have out-source providers in place to provide this information
+\end_layout
+
+\begin_layout Itemize
+RCLCO provides this information for real estate
+\end_layout
+
+\begin_layout Itemize
+Hired Aksia to develop a similar system for credit
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Private equity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Plan to evaluate vendors to monitor the private equity portfolio to decompose
+ positions
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Risk framework
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barra implementation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Barra has never been fully implemented outside liquid securities
+\end_layout
+
+\begin_layout Itemize
+Private holdings are represented in Barra as liquid proxies without regard
+ to sector, straegy or geography
+\end_layout
+
+\begin_layout Itemize
+Need to develop a capability (presumably outsources) to convert private
+ market position for consumption in the Barra system
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barra evaluation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Once we have the data is entered, evaluate system capabilities to determine
+ utility
+\end_layout
+
+\begin_layout Itemize
+Review competing to determine if something is better suited to our needs
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Data Systems and Analytics
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+EAOS, Middle Office, QC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Complete implementation of middle office functions with State Street
+\end_layout
+
+\begin_layout Itemize
+Complete implementation of quality control framework
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+State street database of daily positions at account level is reconciled
+ to composites in ASRS database
+\end_layout
+
+\begin_layout Itemize
+return calculations are replicated and validated top down and bottom up
+ in ASRS database and compared to State
+\end_layout
+
+\begin_layout Itemize
+decomposition of returns (by levers) reconciles in dollar value space to
+ relevant composite
+\end_layout
+
+\begin_layout Itemize
+Code for foregoing steps already written and fully automated
+\end_layout
+
+\begin_layout Itemize
+Once integrity of data established through these checks, hand off to NEPC
+ for their review and confirmation
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Performance Analytics
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Complete 
+\begin_inset Quotes eld
+\end_inset
+
+lever
+\begin_inset Quotes erd
+\end_inset
+
+ style analysis for all portfolios and total fund
+\end_layout
+
+\begin_layout Itemize
+Complete implementation this analysis on best available daily data
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+SQL database
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Complete transition to SQL database for performance and accountn level holdings
+ data
+\end_layout
+
+\begin_layout Itemize
+Implement a query system in to the database
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Select account or composite with benchmark or comparison
+\end_layout
+
+\begin_layout Itemize
+Select data range
+\end_layout
+
+\begin_layout Itemize
+Select analytical method or comparative analysis (TWR, IRR, PME or DVA)
+\end_layout
+
+\begin_layout Itemize
+Ability to define on the fly custom composites
+\end_layout
+
+\begin_layout Itemize
+Ability to grab live index data from BBG if not in policy benchmarks
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Security
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Availability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Working with TSD on cloud implementation to transition 
+\begin_inset Quotes eld
+\end_inset
+
+P drive
+\begin_inset Quotes erd
+\end_inset
+
+ to cloud
+\end_layout
+
+\begin_layout Itemize
+Already moved code to Github for version control and cloud storage
+\end_layout
+
+\begin_layout Itemize
+Working with vendors to eliminate non-cloud software components in ASRS
+ network architecture (issue for Barra and maybe BBG)
+\end_layout
+
+\begin_layout Itemize
+Considering full virtualization of work stations
+\end_layout
+
+\begin_layout Itemize
+Need mobile solutions for traveling personnel needing connectivity using
+ personal devices
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Integrity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+See quality control steps in section 5
+\end_layout
+
+\begin_layout Itemize
+Implementation of these steps together with SQL implementation provides
+ high level of confidence for data integrity
+\end_layout
+
+\begin_layout Itemize
+Use of github provides version control 
+\end_layout
+
+\begin_layout Itemize
+Need to consider implementation of a virtual server environment for access
+ to application code
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rstudio connect is a viable product but pipelines to BBG don't exist
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Confidentiality
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Working to isolate IMD systems from rest of ASRS in order to implement bespoke
+ information security
+\end_layout
+
+\begin_layout Itemize
+Focus is on M&A information around direct investments
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+investigate industry practice for this type data for possible implementation
+ by ASRS
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
