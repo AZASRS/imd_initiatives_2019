@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -74,6 +74,8 @@ knitr
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -103,6 +105,7 @@ knitr
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -111,7 +114,10 @@ knitr
 \tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -251,6 +257,53 @@ optional, should be abbreviation of conference name
 Arizona State Retirement System
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AtBeginSubsection[]{%
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+frame<beamer>{ 
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+frametitle{Outline}   
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+tableofcontents[currentsection,currentsubsection] 
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -324,6 +377,10 @@ textwidth}
 \end_layout
 
 \begin_layout Section
+Accomplishments from 2018
+\end_layout
+
+\begin_layout Subsection
 Accomplishments from 2018
 \end_layout
 
@@ -464,7 +521,7 @@ Completed first implementation plan
 \end_layout
 
 \begin_layout Itemize
-Converted Bridgewater to S&P500 overlay and renegotiated terms 
+Converted Bridgewater to S&P500 overlay and renegotiated terms
 \end_layout
 
 \end_deeper
@@ -641,13 +698,8 @@ Outcomes
 
 \begin_deeper
 \begin_layout Itemize
-Through 9/30, returns of x.x% exceeded the benchmark by y.y% placing ASRS
- in the z percentile among public funds
-\end_layout
-
-\begin_layout Itemize
-Preliminary results for 12/31 are xx.xx% which is yy.yy% greater than the
- benchmark.
+Through 9/30, returns of 8.8% exceeded the benchmark by 1.8% placing ASRS
+ in the top decile among public funds
 \end_layout
 
 \end_deeper
@@ -1166,6 +1218,10 @@ Geography
 Liquidity and tactical flexibility
 \end_layout
 
+\begin_layout Subsection
+Liquidity and tactical flexibility
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -1454,6 +1510,10 @@ Review competing to determine if something is better suited to our needs
 Data Systems and Analytics
 \end_layout
 
+\begin_layout Subsection
+Data Systems and Analytics
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -1605,6 +1665,10 @@ Ability to grab live index data from BBG if not in policy benchmarks
 Security
 \end_layout
 
+\begin_layout Subsection
+Availability, Integrity and Confidentiality
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -1681,7 +1745,7 @@ Implementation of these steps together with SQL implementation provides
 \end_layout
 
 \begin_layout Itemize
-Use of github provides version control 
+Use of github provides version control
 \end_layout
 
 \begin_layout Itemize
